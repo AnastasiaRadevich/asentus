@@ -1,0 +1,144 @@
+.footer {
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../img/1920x1080/03.jpg);
+    background-size: cover;
+}
+
+.footer__container {
+    justify-content: flex-start;
+}
+
+.footer-list {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+.footer-list__item {
+    margin-bottom: 25px;
+}
+
+.footer-list__link {
+    color: #cbd3e1;
+}
+
+.footer-list__link:hover {
+    color: #fff;
+}
+
+.footer-list:nth-child(1) {
+    width: 16.66%;
+}
+
+.footer-list:nth-child(2) {
+    width: 33.33%;
+}
+
+.footer-form {
+    width: 458px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form__title {
+    color: #fff;
+}
+
+.footer-form__input {
+    padding: 6px 12px;
+    margin-bottom: 20px;
+    height: 50px;
+    font-family: Hind, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: rgba(0,0,0,.15);
+    color: #a6a7aa;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.footer_textarea {
+    height: 132px;
+    resize: vertical;
+    overflow-y: hidden;
+    font-family: Hind, sans-serif;
+}
+
+.footer-form__link {
+    height: 48px;
+    width: 105px;
+    padding: 15px 30px;
+    background: #17bed2;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    transition: .3s;
+}
+
+.footer-form__link:hover {
+    background: #63cbd7;
+}
+
+.copyright {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid rgba(255,255,255,.2);
+}
+
+.copyright__container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 85px;
+}
+
+.copyright__text {
+    width: fit-content;
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+}
+
+.copyright__text .blue_link{
+    font-weight: 700;
+}
+
+.copyright__text .blue_link:hover{
+    color: #a6a7aa;
+}
+
+.blue_link {
+    color: #17bed2;
+}
+
+.btn-top {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    padding: 5px;
+    display: inline-block;
+    z-index: 9;
+    width: 40px;
+    height: 40px;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3;
+    letter-spacing: 1px;
+    background: #515769;
+    border-radius: 3px;
+    color: #fff;
+    opacity: .6;
+}
+
+.btn-top:hover {
+    opacity: 1;
+}

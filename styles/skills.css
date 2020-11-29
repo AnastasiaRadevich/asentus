@@ -1,0 +1,36 @@
+.skills {
+    height: 706px;
+}
+
+.card {
+    width: calc(100%/3.4);
+    height: 252px;
+    margin: 1px 1px;
+    padding: 50px;
+    display: block;
+    cursor: pointer;
+}
+
+.card .card-icon {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Simple-Line-Icons';
+    color: #999caa;
+}
+
+.main:hover .container_p .card {
+    animation: slideInLeft 2s;
+    animation-fill-mode: forwards;
+}
+
+.card:hover .card__element {
+    opacity: 0;
+    transform: translate(0,-100%);
+    transition: .8s;
+}
+
+.card:hover .card__info {
+    transform: translate(0,-30%);
+    transition: .4s;
+}

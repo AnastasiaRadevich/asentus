@@ -1,0 +1,12 @@
+.clients__container {
+    justify-content: space-between;
+}
+
+.clients-slide__img {
+    width: 190px;
+} 
+
+.clients-slide__img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
