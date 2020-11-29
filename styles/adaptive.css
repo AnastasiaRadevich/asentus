@@ -2,6 +2,23 @@
     .container {
         width: 85%;
     }
+
+    .clients-slide:nth-child(5) {
+        display: none;
+    }
+
+    .footer__container {
+        justify-content: space-between;
+    }
+
+    .footer-list:nth-child(2) {
+        width: 16.66%;
+    }
+
+    .footer-form {
+        width: 50%;
+        padding: 0 15px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -22,25 +39,8 @@
         padding: 25px;
     }
 
-    .clients-slide:nth-child(5) {
-        display: none;
-    }
-
     .latest-product-content span {
         margin-left: 10px;
-    }
-
-    .footer__container {
-        justify-content: space-between;
-    }
-
-    .footer-list:nth-child(2) {
-        width: 16.66%;
-    }
-
-    .footer-form {
-        width: 50%;
-        padding: 0 15px;
     }
 }
 
@@ -93,6 +93,14 @@
 @media (max-width: 750px) {
     .container {
         width: 95%;
+    }
+
+    .carousel-container {
+        width: 95%;
+    }
+
+    .carousel__title {
+        font-size: 60px;
     }
 
     .skills {
@@ -165,18 +173,6 @@
 @media (max-width: 650px) {
     .container_p {
         padding: 25px 0;
-    }
-
-    .carousel-container {
-        width: 95%;
-    }
-
-    .carousel__title {
-        font-size: 60px;
-    }
-
-    .labels {
-        top: 40%;
     }
 
     .clients-slide:nth-child(3) {
