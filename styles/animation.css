@@ -1,0 +1,84 @@
+@keyframes slide {
+    0%, 25%	{ 
+        margin-left: 0; }
+    33%, 58% { 
+        margin-left: -100%; }
+}
+
+@keyframes bullet {
+    0%, 33%	{
+        background: #fff;
+        width: 12px;
+        height: 12px;
+    }
+    34%, 100% {
+        background: rgb(0, 0, 0, 0);
+        width: 10px;
+        height: 10px;
+        border: 1px solid #fff;
+    }
+}
+
+@keyframes caption {
+    0%, 33%	{
+        opacity: 1;
+    }
+    34%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translate(-100%, 0);
+        visibility: visible;
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.3, 0.3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate(0, 100%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes burgerDown {
+    0% {
+        opacity: 0;
+        height: 0;
+    }
+    100% {
+        opacity: 1;
+        height: 100%;
+        visibility: visible;
+    }
+}
+
+@keyframes burgerUp {
+    0% {
+        opacity: 1;
+        height: 100%;
+    }
+    100% {
+        opacity: 0;
+        height: 0;
+        visibility: hidden;
+    }
+}

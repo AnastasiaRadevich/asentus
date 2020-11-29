@@ -1,0 +1,96 @@
+.menu-icon {
+    display: none;
+	width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.menu-icon-line, .menu-icon-line::before, .menu-icon-line::after {
+    height: 1px;
+    background: #515769;
+    transition-duration: .4s;
+}
+
+.menu-icon-line {
+	position: relative;
+    width: 16px;
+    margin: 8px;
+}
+
+.menu-icon-line::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: -5px;
+	width: 10px;
+}
+
+.menu-icon-line::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 21px;
+}
+
+#check-icon:checked ~ .menu__btn >.menu-icon-line, #check-icon:checked ~ .menu__btn > .menu-icon-line::before, #check-icon:checked ~ .menu__btn > .menu-icon-line::after {
+    width: 21px;
+    transition-duration: .25s;
+    background: #17bed2;
+    transition: .4s;
+}
+
+#mobile-nav {
+    display: block;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    width: 100%;
+    height: 250px; 
+    opacity: 1;
+    overflow: hidden;
+    transition: height .4s, opacity .4s;   
+}
+
+#mobile-list {
+    height: 100%;
+}
+
+#check-icon:checked ~ #mobile-nav {
+    height: 250px; 
+    opacity: 1;
+}
+
+#check-icon:not(:checked) ~ #mobile-nav {
+    height: 0 !important;
+    opacity: 0 !important;
+}
+
+.mobile-nav__list {
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    margin: 0;
+    list-style-type: none;
+    background: #fff;
+    transition: 2s;
+}
+
+.mobile-nav__link {
+    display: inline-block;
+    margin: 12px 12px 12px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #515769;
+    text-decoration: none;
+}
+
+.mobile-nav__link.link::before {
+    opacity: 1;
+}
+
+.menu__btn {
+    margin-right: 12px;
+    cursor: pointer;
+}

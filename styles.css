@@ -1,0 +1,71 @@
+@import url(./styles/common.css);
+@import url(./styles/animation.css);
+@import url(./styles/header.css);
+@import url(./styles/slider.css);
+@import url(./styles/simple-line-icons.css);
+@import url(./styles/skills.css);
+@import url(./styles/latest-product.css);
+@import url(./styles/clients.css);
+@import url(./styles/reviews.css);
+@import url(./styles/pricing.css);
+@import url(./styles/our-clients.css);
+@import url(./styles/snowcase.css);
+@import url(./styles/footer.css);
+@import url(./styles/burger.css);
+@import url(./styles/adaptive.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: Hind, sans-serif;
+}
+
+p{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #a6a7aa;
+}
+
+li, li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #515769;
+}
+
+a {
+    color: #81848f;
+    outline: 0;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #515769;
+    line-height: 1.4;
+    margin: 0 0 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3, h4 {
+    font-size: 22px;
+}
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+    color: #515769;
+}
+
+::selection {
+    color: #fff;
+    background: #17bed2;
+    text-shadow: none;
+}

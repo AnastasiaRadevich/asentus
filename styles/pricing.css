@@ -1,0 +1,63 @@
+.pricing-card {
+    width: calc(100%/3.1);
+    padding: 70px 45px;
+    margin: 50px 1px 0;
+}
+
+.pricing-card:nth-child(2) {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 10px;
+}
+
+.pricing-card:nth-child(odd) {
+    height: 489px;
+}
+
+.pricing-icon {
+    display: block;
+    font-size: 30px;
+    color: #999caa;
+    margin-bottom: 30px;
+}
+
+.pricing__cost {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bfc1c7;
+}
+
+.pricing-card-list {
+    margin-bottom: 50px;
+}
+
+.pricing-card-list__item {
+    position: relative;
+    font-size: 13px;
+    color: #81848f;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.pricing-card-list__item::before {
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    width: 9px;
+    height: 2px;
+    background: #17bed2;
+    content: "";
+}
+
+.pricing-card__link {
+    padding: 15px 30px;
+    color: #515769;
+    background: #f3f4f5;
+}
+
+.pricing-card__link:hover {
+    background: #17bed2;
+    color: #fff;
+    transition: .3s;
+}
